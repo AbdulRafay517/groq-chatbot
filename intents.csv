@@ -1,0 +1,13 @@
+text,intent
+hi,greeting
+hello,greeting
+hey,greeting
+good morning,greeting
+bye,goodbye
+see you,goodbye
+thanks,thanks
+thank you,thanks
+can you help me,help
+i need support,help
+what can you do,capabilities
+who are you,capabilities
