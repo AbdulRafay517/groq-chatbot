@@ -17,15 +17,27 @@ def ask_groq(question):
     """
     
     groq = Groq(api_key=GROQ_API_KEY)
+
+    system_prompt = "You are a helpful and knowledgeable assistant that only answers questions related to the internet, such as how it works, its protocols (HTTP, TCP/IP, etc.), history, infrastructure (like DNS, servers, ISPs), and applications. If the question is not about the internet, respond with: Sorry, I can only answer questions about the internet."
+
     response = groq.chat.completions.create(
         model="compound-beta",
         messages=[
+            {
+                "role": "system",
+                "content": system_prompt
+            },
             {
                 "role": "user",
                 "content": question
             }
         ]
     )
+    
+    if not response.choices or not response.choices[0].message:
+        console.print("Error: No response from Groq API.")
+        return "I'm sorry, I couldn't process your request."
+    
     return response.choices[0].message.content
 
 def main():
