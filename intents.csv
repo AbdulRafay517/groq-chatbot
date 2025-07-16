@@ -1,13 +1,64 @@
 text,intent
 hi,greeting
-hello,greeting
+hello there,greeting
 hey,greeting
 good morning,greeting
+howdy,greeting
+hi there,greeting
+good afternoon,greeting
+yo,greeting
 bye,goodbye
-see you,goodbye
+goodbye,goodbye
+see you later,goodbye
+catch you later,goodbye
+talk to you later,goodbye
+see ya,goodbye
+i'm out,goodbye
 thanks,thanks
 thank you,thanks
+thanks a lot,thanks
+thank you so much,thanks
+i appreciate it,thanks
+thanks buddy,thanks
 can you help me,help
+i need some help,help
+can you assist me,help
+please help,help
+i have a question,help
+need assistance,help
 i need support,help
 what can you do,capabilities
+what are your capabilities,capabilities
 who are you,capabilities
+what is your purpose,capabilities
+what do you know,capabilities
+how do you work,capabilities
+can you tell a joke,joke
+make me laugh,joke
+say something funny,joke
+tell me a joke,joke
+got any jokes,joke
+do you know a joke,joke
+what’s the weather like,weather
+is it going to rain,weather
+tell me the forecast,weather
+how’s the weather today,weather
+what’s the temperature,weather
+will it snow,weather
+what time is it,time
+tell me the time,time
+current time,time
+do you know the time,time
+what’s the time,time
+what's your name,smalltalk
+how old are you,smalltalk
+do you sleep,smalltalk
+are you human,smalltalk
+do you eat,smalltalk
+do you have emotions,smalltalk
+asdkfjhasd,unknown
+blah blah blah,unknown
+1234567890,unknown
+what is asdfasdf,unknown
+gibberish here,unknown
+random words here,unknown
